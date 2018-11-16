@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66739794219E5DE900A7B124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66739793219E5DE900A7B124 /* AppDelegate.swift */; };
+		66739796219E5DE900A7B124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66739795219E5DE900A7B124 /* ViewController.swift */; };
+		66739799219E5DE900A7B124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66739797219E5DE900A7B124 /* Main.storyboard */; };
+		6673979B219E5DEB00A7B124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6673979A219E5DEB00A7B124 /* Assets.xcassets */; };
+		6673979E219E5DEB00A7B124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6673979C219E5DEB00A7B124 /* LaunchScreen.storyboard */; };
+		667397A9219E5DEB00A7B124 /* DIADAssitantiPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397A8219E5DEB00A7B124 /* DIADAssitantiPadTests.swift */; };
+		667397B4219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397B3219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		667397A5219E5DEB00A7B124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66739788219E5DE900A7B124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6673978F219E5DE900A7B124;
+			remoteInfo = DIADAssitantiPad;
+		};
+		667397B0219E5DEB00A7B124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66739788219E5DE900A7B124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6673978F219E5DE900A7B124;
+			remoteInfo = DIADAssitantiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66739790219E5DE900A7B124 /* DIADAssitantiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIADAssitantiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66739793219E5DE900A7B124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66739795219E5DE900A7B124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66739798219E5DE900A7B124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6673979A219E5DEB00A7B124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6673979D219E5DEB00A7B124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6673979F219E5DEB00A7B124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667397A4219E5DEB00A7B124 /* DIADAssitantiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIADAssitantiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		667397A8219E5DEB00A7B124 /* DIADAssitantiPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIADAssitantiPadTests.swift; sourceTree = "<group>"; };
+		667397AA219E5DEB00A7B124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667397AF219E5DEB00A7B124 /* DIADAssitantiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIADAssitantiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		667397B3219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIADAssitantiPadUITests.swift; sourceTree = "<group>"; };
+		667397B5219E5DEB00A7B124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6673978D219E5DE900A7B124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667397A1219E5DEB00A7B124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667397AC219E5DEB00A7B124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66739787219E5DE900A7B124 = {
+			isa = PBXGroup;
+			children = (
+				66739792219E5DE900A7B124 /* DIADAssitantiPad */,
+				667397A7219E5DEB00A7B124 /* DIADAssitantiPadTests */,
+				667397B2219E5DEB00A7B124 /* DIADAssitantiPadUITests */,
+				66739791219E5DE900A7B124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66739791219E5DE900A7B124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66739790219E5DE900A7B124 /* DIADAssitantiPad.app */,
+				667397A4219E5DEB00A7B124 /* DIADAssitantiPadTests.xctest */,
+				667397AF219E5DEB00A7B124 /* DIADAssitantiPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66739792219E5DE900A7B124 /* DIADAssitantiPad */ = {
+			isa = PBXGroup;
+			children = (
+				66739793219E5DE900A7B124 /* AppDelegate.swift */,
+				66739795219E5DE900A7B124 /* ViewController.swift */,
+				66739797219E5DE900A7B124 /* Main.storyboard */,
+				6673979A219E5DEB00A7B124 /* Assets.xcassets */,
+				6673979C219E5DEB00A7B124 /* LaunchScreen.storyboard */,
+				6673979F219E5DEB00A7B124 /* Info.plist */,
+			);
+			path = DIADAssitantiPad;
+			sourceTree = "<group>";
+		};
+		667397A7219E5DEB00A7B124 /* DIADAssitantiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				667397A8219E5DEB00A7B124 /* DIADAssitantiPadTests.swift */,
+				667397AA219E5DEB00A7B124 /* Info.plist */,
+			);
+			path = DIADAssitantiPadTests;
+			sourceTree = "<group>";
+		};
+		667397B2219E5DEB00A7B124 /* DIADAssitantiPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				667397B3219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift */,
+				667397B5219E5DEB00A7B124 /* Info.plist */,
+			);
+			path = DIADAssitantiPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6673978F219E5DE900A7B124 /* DIADAssitantiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667397B8219E5DEB00A7B124 /* Build configuration list for PBXNativeTarget "DIADAssitantiPad" */;
+			buildPhases = (
+				6673978C219E5DE900A7B124 /* Sources */,
+				6673978D219E5DE900A7B124 /* Frameworks */,
+				6673978E219E5DE900A7B124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIADAssitantiPad;
+			productName = DIADAssitantiPad;
+			productReference = 66739790219E5DE900A7B124 /* DIADAssitantiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		667397A3219E5DEB00A7B124 /* DIADAssitantiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667397BB219E5DEB00A7B124 /* Build configuration list for PBXNativeTarget "DIADAssitantiPadTests" */;
+			buildPhases = (
+				667397A0219E5DEB00A7B124 /* Sources */,
+				667397A1219E5DEB00A7B124 /* Frameworks */,
+				667397A2219E5DEB00A7B124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667397A6219E5DEB00A7B124 /* PBXTargetDependency */,
+			);
+			name = DIADAssitantiPadTests;
+			productName = DIADAssitantiPadTests;
+			productReference = 667397A4219E5DEB00A7B124 /* DIADAssitantiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		667397AE219E5DEB00A7B124 /* DIADAssitantiPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667397BE219E5DEB00A7B124 /* Build configuration list for PBXNativeTarget "DIADAssitantiPadUITests" */;
+			buildPhases = (
+				667397AB219E5DEB00A7B124 /* Sources */,
+				667397AC219E5DEB00A7B124 /* Frameworks */,
+				667397AD219E5DEB00A7B124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667397B1219E5DEB00A7B124 /* PBXTargetDependency */,
+			);
+			name = DIADAssitantiPadUITests;
+			productName = DIADAssitantiPadUITests;
+			productReference = 667397AF219E5DEB00A7B124 /* DIADAssitantiPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66739788219E5DE900A7B124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gerardo Nazarett";
+				TargetAttributes = {
+					6673978F219E5DE900A7B124 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					667397A3219E5DEB00A7B124 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6673978F219E5DE900A7B124;
+					};
+					667397AE219E5DEB00A7B124 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6673978F219E5DE900A7B124;
+					};
+				};
+			};
+			buildConfigurationList = 6673978B219E5DE900A7B124 /* Build configuration list for PBXProject "DIADAssitantiPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66739787219E5DE900A7B124;
+			productRefGroup = 66739791219E5DE900A7B124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6673978F219E5DE900A7B124 /* DIADAssitantiPad */,
+				667397A3219E5DEB00A7B124 /* DIADAssitantiPadTests */,
+				667397AE219E5DEB00A7B124 /* DIADAssitantiPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6673978E219E5DE900A7B124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673979E219E5DEB00A7B124 /* LaunchScreen.storyboard in Resources */,
+				6673979B219E5DEB00A7B124 /* Assets.xcassets in Resources */,
+				66739799219E5DE900A7B124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667397A2219E5DEB00A7B124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667397AD219E5DEB00A7B124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6673978C219E5DE900A7B124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66739796219E5DE900A7B124 /* ViewController.swift in Sources */,
+				66739794219E5DE900A7B124 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667397A0219E5DEB00A7B124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667397A9219E5DEB00A7B124 /* DIADAssitantiPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667397AB219E5DEB00A7B124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667397B4219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		667397A6219E5DEB00A7B124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6673978F219E5DE900A7B124 /* DIADAssitantiPad */;
+			targetProxy = 667397A5219E5DEB00A7B124 /* PBXContainerItemProxy */;
+		};
+		667397B1219E5DEB00A7B124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6673978F219E5DE900A7B124 /* DIADAssitantiPad */;
+			targetProxy = 667397B0219E5DEB00A7B124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66739797219E5DE900A7B124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66739798219E5DE900A7B124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6673979C219E5DEB00A7B124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6673979D219E5DEB00A7B124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		667397B6219E5DEB00A7B124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		667397B7219E5DEB00A7B124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		667397B9219E5DEB00A7B124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL4M74DNL5;
+				INFOPLIST_FILE = DIADAssitantiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		667397BA219E5DEB00A7B124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL4M74DNL5;
+				INFOPLIST_FILE = DIADAssitantiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		667397BC219E5DEB00A7B124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL4M74DNL5;
+				INFOPLIST_FILE = DIADAssitantiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIADAssitantiPad.app/DIADAssitantiPad";
+			};
+			name = Debug;
+		};
+		667397BD219E5DEB00A7B124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL4M74DNL5;
+				INFOPLIST_FILE = DIADAssitantiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIADAssitantiPad.app/DIADAssitantiPad";
+			};
+			name = Release;
+		};
+		667397BF219E5DEB00A7B124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL4M74DNL5;
+				INFOPLIST_FILE = DIADAssitantiPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DIADAssitantiPad;
+			};
+			name = Debug;
+		};
+		667397C0219E5DEB00A7B124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL4M74DNL5;
+				INFOPLIST_FILE = DIADAssitantiPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DIADAssitantiPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6673978B219E5DE900A7B124 /* Build configuration list for PBXProject "DIADAssitantiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667397B6219E5DEB00A7B124 /* Debug */,
+				667397B7219E5DEB00A7B124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667397B8219E5DEB00A7B124 /* Build configuration list for PBXNativeTarget "DIADAssitantiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667397B9219E5DEB00A7B124 /* Debug */,
+				667397BA219E5DEB00A7B124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667397BB219E5DEB00A7B124 /* Build configuration list for PBXNativeTarget "DIADAssitantiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667397BC219E5DEB00A7B124 /* Debug */,
+				667397BD219E5DEB00A7B124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667397BE219E5DEB00A7B124 /* Build configuration list for PBXNativeTarget "DIADAssitantiPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667397BF219E5DEB00A7B124 /* Debug */,
+				667397C0219E5DEB00A7B124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66739788219E5DE900A7B124 /* Project object */;
+}
