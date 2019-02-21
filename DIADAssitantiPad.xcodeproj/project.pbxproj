@@ -14,6 +14,52 @@
 		6673979E219E5DEB00A7B124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6673979C219E5DEB00A7B124 /* LaunchScreen.storyboard */; };
 		667397A9219E5DEB00A7B124 /* DIADAssitantiPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397A8219E5DEB00A7B124 /* DIADAssitantiPadTests.swift */; };
 		667397B4219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397B3219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift */; };
+		667397C4219E793800A7B124 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397C3219E793800A7B124 /* SignIn.swift */; };
+		667397C6219E799A00A7B124 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397C5219E799A00A7B124 /* SignUp.swift */; };
+		667397C8219E79B400A7B124 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397C7219E79B400A7B124 /* ForgotPassword.swift */; };
+		667397CA219E79C700A7B124 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397C9219E79C700A7B124 /* Driver.swift */; };
+		667397CC219E79D600A7B124 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397CB219E79D600A7B124 /* Helper.swift */; };
+		667397CE219E79E600A7B124 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397CD219E79E600A7B124 /* Profile.swift */; };
+		667397D0219E7A0F00A7B124 /* PunchInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397CF219E7A0F00A7B124 /* PunchInOut.swift */; };
+		667397D2219E7A2A00A7B124 /* TimecardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397D1219E7A2A00A7B124 /* TimecardInfo.swift */; };
+		667397FA2203D29E00A7B124 /* GetEDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397F92203D29E00A7B124 /* GetEDD.swift */; };
+		667397FC2203D2BE00A7B124 /* ClickEDDAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397FB2203D2BE00A7B124 /* ClickEDDAddress.swift */; };
+		667397FE2203D2DD00A7B124 /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397FD2203D2DD00A7B124 /* VehicleInfo.swift */; };
+		667398002203D2EC00A7B124 /* TruckNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667397FF2203D2EC00A7B124 /* TruckNumber.swift */; };
+		667398022203D30900A7B124 /* EnterTruckNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398012203D30900A7B124 /* EnterTruckNumber.swift */; };
+		667398042203D31D00A7B124 /* EnterMiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398032203D31D00A7B124 /* EnterMiles.swift */; };
+		667398062203D32C00A7B124 /* Deliver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398052203D32C00A7B124 /* Deliver.swift */; };
+		667398082203D33C00A7B124 /* Commercial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398072203D33C00A7B124 /* Commercial.swift */; };
+		6673980A2203D34B00A7B124 /* Residential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398092203D34B00A7B124 /* Residential.swift */; };
+		6673980C2203D36000A7B124 /* CommercialPageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673980B2203D36000A7B124 /* CommercialPageTwo.swift */; };
+		6673980E2203D37500A7B124 /* MilesEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673980D2203D37500A7B124 /* MilesEnded.swift */; };
+		667398102203D39700A7B124 /* MilesEndedTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673980F2203D39700A7B124 /* MilesEndedTwo.swift */; };
+		667398122203D3B100A7B124 /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398112203D3B100A7B124 /* Admin.swift */; };
+		667398142203D3CA00A7B124 /* UsersForAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398132203D3CA00A7B124 /* UsersForAdmin.swift */; };
+		667398162203D3E000A7B124 /* UsersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398152203D3E000A7B124 /* UsersInfo.swift */; };
+		667398182203D3F400A7B124 /* ListUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398172203D3F400A7B124 /* ListUser.swift */; };
+		6673981A2203D40A00A7B124 /* CommercialScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398192203D40A00A7B124 /* CommercialScan.swift */; };
+		6673981C2203D43300A7B124 /* ResidentialPageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673981B2203D43300A7B124 /* ResidentialPageTwo.swift */; };
+		6673981E2203D45C00A7B124 /* NeedsSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673981D2203D45C00A7B124 /* NeedsSignature.swift */; };
+		667398202203D48700A7B124 /* SignatureNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673981F2203D48700A7B124 /* SignatureNeeded.swift */; };
+		667398222203D4A100A7B124 /* SignatureNotNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398212203D4A100A7B124 /* SignatureNotNeeded.swift */; };
+		667398242203D4BB00A7B124 /* CustomerSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398232203D4BB00A7B124 /* CustomerSign.swift */; };
+		667398262203D4D700A7B124 /* SignatureLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398252203D4D700A7B124 /* SignatureLines.swift */; };
+		667398282203D4F900A7B124 /* NoSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398272203D4F900A7B124 /* NoSignature.swift */; };
+		6673982A2203D51100A7B124 /* TimeLeavingBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398292203D51100A7B124 /* TimeLeavingBuilding.swift */; };
+		6673982C2203D52300A7B124 /* InputTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673982B2203D52300A7B124 /* InputTime.swift */; };
+		6673982E2203D53800A7B124 /* NotIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673982D2203D53800A7B124 /* NotIn.swift */; };
+		667398302203D55000A7B124 /* AttemptNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673982F2203D55000A7B124 /* AttemptNumber.swift */; };
+		667398322203D56300A7B124 /* InfoNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398312203D56300A7B124 /* InfoNotice.swift */; };
+		667398362203EC2B00A7B124 /* OnboardingViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398352203EC2B00A7B124 /* OnboardingViewClass.swift */; };
+		667398382203EC6300A7B124 /* OnboardingEDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398372203EC6300A7B124 /* OnboardingEDD.swift */; };
+		6673983A2203EC7C00A7B124 /* OnboardingVehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667398392203EC7C00A7B124 /* OnboardingVehicleInfo.swift */; };
+		6673983C2203EC9300A7B124 /* OnboardingDeliver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673983B2203EC9300A7B124 /* OnboardingDeliver.swift */; };
+		6673983E2203ECA300A7B124 /* OnboardingMilesEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673983D2203ECA300A7B124 /* OnboardingMilesEnded.swift */; };
+		667398402203ECB800A7B124 /* OnboardingTLB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673983F2203ECB800A7B124 /* OnboardingTLB.swift */; };
+		6673984422150A4000A7B124 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6673984322150A3F00A7B124 /* GoogleService-Info.plist */; };
+		6673984622150B9700A7B124 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673984522150B9700A7B124 /* CheckInternet.swift */; };
+		CD3D134FAF3125F74A42EC92 /* Pods_DIADAssitantiPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DFFE8EB4194DB6AE7FB92B /* Pods_DIADAssitantiPad.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		363438B4AF26A63D6F7B69C3 /* Pods-DIADAssitantiPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIADAssitantiPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIADAssitantiPad/Pods-DIADAssitantiPad.release.xcconfig"; sourceTree = "<group>"; };
+		442A1443E5E06E6F056F2FC6 /* Pods_DIADAssitantiPadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIADAssitantiPadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66739790219E5DE900A7B124 /* DIADAssitantiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIADAssitantiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66739793219E5DE900A7B124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66739795219E5DE900A7B124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +95,54 @@
 		667397AF219E5DEB00A7B124 /* DIADAssitantiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIADAssitantiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667397B3219E5DEB00A7B124 /* DIADAssitantiPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIADAssitantiPadUITests.swift; sourceTree = "<group>"; };
 		667397B5219E5DEB00A7B124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667397C3219E793800A7B124 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		667397C5219E799A00A7B124 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		667397C7219E79B400A7B124 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		667397C9219E79C700A7B124 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		667397CB219E79D600A7B124 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		667397CD219E79E600A7B124 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		667397CF219E7A0F00A7B124 /* PunchInOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchInOut.swift; sourceTree = "<group>"; };
+		667397D1219E7A2A00A7B124 /* TimecardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimecardInfo.swift; sourceTree = "<group>"; };
+		667397F92203D29E00A7B124 /* GetEDD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEDD.swift; sourceTree = "<group>"; };
+		667397FB2203D2BE00A7B124 /* ClickEDDAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickEDDAddress.swift; sourceTree = "<group>"; };
+		667397FD2203D2DD00A7B124 /* VehicleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfo.swift; sourceTree = "<group>"; };
+		667397FF2203D2EC00A7B124 /* TruckNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckNumber.swift; sourceTree = "<group>"; };
+		667398012203D30900A7B124 /* EnterTruckNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTruckNumber.swift; sourceTree = "<group>"; };
+		667398032203D31D00A7B124 /* EnterMiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMiles.swift; sourceTree = "<group>"; };
+		667398052203D32C00A7B124 /* Deliver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deliver.swift; sourceTree = "<group>"; };
+		667398072203D33C00A7B124 /* Commercial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commercial.swift; sourceTree = "<group>"; };
+		667398092203D34B00A7B124 /* Residential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residential.swift; sourceTree = "<group>"; };
+		6673980B2203D36000A7B124 /* CommercialPageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialPageTwo.swift; sourceTree = "<group>"; };
+		6673980D2203D37500A7B124 /* MilesEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesEnded.swift; sourceTree = "<group>"; };
+		6673980F2203D39700A7B124 /* MilesEndedTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesEndedTwo.swift; sourceTree = "<group>"; };
+		667398112203D3B100A7B124 /* Admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		667398132203D3CA00A7B124 /* UsersForAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersForAdmin.swift; sourceTree = "<group>"; };
+		667398152203D3E000A7B124 /* UsersInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInfo.swift; sourceTree = "<group>"; };
+		667398172203D3F400A7B124 /* ListUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUser.swift; sourceTree = "<group>"; };
+		667398192203D40A00A7B124 /* CommercialScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialScan.swift; sourceTree = "<group>"; };
+		6673981B2203D43300A7B124 /* ResidentialPageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentialPageTwo.swift; sourceTree = "<group>"; };
+		6673981D2203D45C00A7B124 /* NeedsSignature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedsSignature.swift; sourceTree = "<group>"; };
+		6673981F2203D48700A7B124 /* SignatureNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureNeeded.swift; sourceTree = "<group>"; };
+		667398212203D4A100A7B124 /* SignatureNotNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureNotNeeded.swift; sourceTree = "<group>"; };
+		667398232203D4BB00A7B124 /* CustomerSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSign.swift; sourceTree = "<group>"; };
+		667398252203D4D700A7B124 /* SignatureLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureLines.swift; sourceTree = "<group>"; };
+		667398272203D4F900A7B124 /* NoSignature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSignature.swift; sourceTree = "<group>"; };
+		667398292203D51100A7B124 /* TimeLeavingBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLeavingBuilding.swift; sourceTree = "<group>"; };
+		6673982B2203D52300A7B124 /* InputTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTime.swift; sourceTree = "<group>"; };
+		6673982D2203D53800A7B124 /* NotIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotIn.swift; sourceTree = "<group>"; };
+		6673982F2203D55000A7B124 /* AttemptNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttemptNumber.swift; sourceTree = "<group>"; };
+		667398312203D56300A7B124 /* InfoNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoNotice.swift; sourceTree = "<group>"; };
+		667398352203EC2B00A7B124 /* OnboardingViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewClass.swift; sourceTree = "<group>"; };
+		667398372203EC6300A7B124 /* OnboardingEDD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingEDD.swift; sourceTree = "<group>"; };
+		667398392203EC7C00A7B124 /* OnboardingVehicleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVehicleInfo.swift; sourceTree = "<group>"; };
+		6673983B2203EC9300A7B124 /* OnboardingDeliver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDeliver.swift; sourceTree = "<group>"; };
+		6673983D2203ECA300A7B124 /* OnboardingMilesEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMilesEnded.swift; sourceTree = "<group>"; };
+		6673983F2203ECB800A7B124 /* OnboardingTLB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTLB.swift; sourceTree = "<group>"; };
+		6673984322150A3F00A7B124 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6673984522150B9700A7B124 /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		78DFFE8EB4194DB6AE7FB92B /* Pods_DIADAssitantiPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIADAssitantiPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99717D9A4252DD0DDC225179 /* Pods-DIADAssitantiPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIADAssitantiPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIADAssitantiPad/Pods-DIADAssitantiPad.debug.xcconfig"; sourceTree = "<group>"; };
+		D885CE4CB8E7E4258FC0334B /* Pods_DIADAssitantiPadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIADAssitantiPadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3D134FAF3125F74A42EC92 /* Pods_DIADAssitantiPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +171,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE0726883ECE73A40AA8072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99717D9A4252DD0DDC225179 /* Pods-DIADAssitantiPad.debug.xcconfig */,
+				363438B4AF26A63D6F7B69C3 /* Pods-DIADAssitantiPad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5970A983AB34929DF9CBAF45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				442A1443E5E06E6F056F2FC6 /* Pods_DIADAssitantiPadTests.framework */,
+				D885CE4CB8E7E4258FC0334B /* Pods_DIADAssitantiPadUITests.framework */,
+				78DFFE8EB4194DB6AE7FB92B /* Pods_DIADAssitantiPad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66739787219E5DE900A7B124 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +197,8 @@
 				667397A7219E5DEB00A7B124 /* DIADAssitantiPadTests */,
 				667397B2219E5DEB00A7B124 /* DIADAssitantiPadUITests */,
 				66739791219E5DE900A7B124 /* Products */,
+				4CE0726883ECE73A40AA8072 /* Pods */,
+				5970A983AB34929DF9CBAF45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +217,55 @@
 			children = (
 				66739793219E5DE900A7B124 /* AppDelegate.swift */,
 				66739795219E5DE900A7B124 /* ViewController.swift */,
+				6673984522150B9700A7B124 /* CheckInternet.swift */,
+				667397C3219E793800A7B124 /* SignIn.swift */,
+				667397C5219E799A00A7B124 /* SignUp.swift */,
+				667397C7219E79B400A7B124 /* ForgotPassword.swift */,
+				667397C9219E79C700A7B124 /* Driver.swift */,
+				667397CB219E79D600A7B124 /* Helper.swift */,
+				667397CD219E79E600A7B124 /* Profile.swift */,
+				667397CF219E7A0F00A7B124 /* PunchInOut.swift */,
+				667397F92203D29E00A7B124 /* GetEDD.swift */,
+				667397FB2203D2BE00A7B124 /* ClickEDDAddress.swift */,
+				667397FD2203D2DD00A7B124 /* VehicleInfo.swift */,
+				667397FF2203D2EC00A7B124 /* TruckNumber.swift */,
+				667398012203D30900A7B124 /* EnterTruckNumber.swift */,
+				667398032203D31D00A7B124 /* EnterMiles.swift */,
+				667398052203D32C00A7B124 /* Deliver.swift */,
+				667398072203D33C00A7B124 /* Commercial.swift */,
+				667398092203D34B00A7B124 /* Residential.swift */,
+				6673980B2203D36000A7B124 /* CommercialPageTwo.swift */,
+				6673980D2203D37500A7B124 /* MilesEnded.swift */,
+				6673980F2203D39700A7B124 /* MilesEndedTwo.swift */,
+				667397D1219E7A2A00A7B124 /* TimecardInfo.swift */,
+				667398112203D3B100A7B124 /* Admin.swift */,
+				667398132203D3CA00A7B124 /* UsersForAdmin.swift */,
+				667398152203D3E000A7B124 /* UsersInfo.swift */,
+				667398172203D3F400A7B124 /* ListUser.swift */,
+				667398192203D40A00A7B124 /* CommercialScan.swift */,
+				6673981B2203D43300A7B124 /* ResidentialPageTwo.swift */,
+				6673981D2203D45C00A7B124 /* NeedsSignature.swift */,
+				6673981F2203D48700A7B124 /* SignatureNeeded.swift */,
+				667398212203D4A100A7B124 /* SignatureNotNeeded.swift */,
+				667398232203D4BB00A7B124 /* CustomerSign.swift */,
+				667398252203D4D700A7B124 /* SignatureLines.swift */,
+				667398272203D4F900A7B124 /* NoSignature.swift */,
+				667398292203D51100A7B124 /* TimeLeavingBuilding.swift */,
+				6673982B2203D52300A7B124 /* InputTime.swift */,
+				6673982D2203D53800A7B124 /* NotIn.swift */,
+				6673982F2203D55000A7B124 /* AttemptNumber.swift */,
+				667398312203D56300A7B124 /* InfoNotice.swift */,
+				667398352203EC2B00A7B124 /* OnboardingViewClass.swift */,
+				667398372203EC6300A7B124 /* OnboardingEDD.swift */,
+				667398392203EC7C00A7B124 /* OnboardingVehicleInfo.swift */,
+				6673983B2203EC9300A7B124 /* OnboardingDeliver.swift */,
+				6673983D2203ECA300A7B124 /* OnboardingMilesEnded.swift */,
+				6673983F2203ECB800A7B124 /* OnboardingTLB.swift */,
 				66739797219E5DE900A7B124 /* Main.storyboard */,
 				6673979A219E5DEB00A7B124 /* Assets.xcassets */,
 				6673979C219E5DEB00A7B124 /* LaunchScreen.storyboard */,
 				6673979F219E5DEB00A7B124 /* Info.plist */,
+				6673984322150A3F00A7B124 /* GoogleService-Info.plist */,
 			);
 			path = DIADAssitantiPad;
 			sourceTree = "<group>";
@@ -132,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 667397B8219E5DEB00A7B124 /* Build configuration list for PBXNativeTarget "DIADAssitantiPad" */;
 			buildPhases = (
+				6B87A75215A49487A2D5D8B3 /* [CP] Check Pods Manifest.lock */,
 				6673978C219E5DE900A7B124 /* Sources */,
 				6673978D219E5DE900A7B124 /* Frameworks */,
 				6673978E219E5DE900A7B124 /* Resources */,
+				D3442F33D56BD68F133FE8C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6673979E219E5DEB00A7B124 /* LaunchScreen.storyboard in Resources */,
+				6673984422150A4000A7B124 /* GoogleService-Info.plist in Resources */,
 				6673979B219E5DEB00A7B124 /* Assets.xcassets in Resources */,
 				66739799219E5DE900A7B124 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +417,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B87A75215A49487A2D5D8B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIADAssitantiPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3442F33D56BD68F133FE8C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DIADAssitantiPad/Pods-DIADAssitantiPad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIADAssitantiPad/Pods-DIADAssitantiPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6673978C219E5DE900A7B124 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667398142203D3CA00A7B124 /* UsersForAdmin.swift in Sources */,
 				66739796219E5DE900A7B124 /* ViewController.swift in Sources */,
+				667397FC2203D2BE00A7B124 /* ClickEDDAddress.swift in Sources */,
+				667397FA2203D29E00A7B124 /* GetEDD.swift in Sources */,
+				667398122203D3B100A7B124 /* Admin.swift in Sources */,
+				667398042203D31D00A7B124 /* EnterMiles.swift in Sources */,
+				667397CE219E79E600A7B124 /* Profile.swift in Sources */,
+				667397FE2203D2DD00A7B124 /* VehicleInfo.swift in Sources */,
+				667398302203D55000A7B124 /* AttemptNumber.swift in Sources */,
+				667398062203D32C00A7B124 /* Deliver.swift in Sources */,
+				667397CC219E79D600A7B124 /* Helper.swift in Sources */,
+				667397C6219E799A00A7B124 /* SignUp.swift in Sources */,
+				667397C4219E793800A7B124 /* SignIn.swift in Sources */,
+				667398002203D2EC00A7B124 /* TruckNumber.swift in Sources */,
+				667398202203D48700A7B124 /* SignatureNeeded.swift in Sources */,
+				667397CA219E79C700A7B124 /* Driver.swift in Sources */,
+				667398362203EC2B00A7B124 /* OnboardingViewClass.swift in Sources */,
+				667398282203D4F900A7B124 /* NoSignature.swift in Sources */,
+				667398382203EC6300A7B124 /* OnboardingEDD.swift in Sources */,
+				667398262203D4D700A7B124 /* SignatureLines.swift in Sources */,
+				6673982A2203D51100A7B124 /* TimeLeavingBuilding.swift in Sources */,
+				6673982E2203D53800A7B124 /* NotIn.swift in Sources */,
+				6673983E2203ECA300A7B124 /* OnboardingMilesEnded.swift in Sources */,
+				6673983C2203EC9300A7B124 /* OnboardingDeliver.swift in Sources */,
+				6673981C2203D43300A7B124 /* ResidentialPageTwo.swift in Sources */,
+				667398242203D4BB00A7B124 /* CustomerSign.swift in Sources */,
+				667398102203D39700A7B124 /* MilesEndedTwo.swift in Sources */,
+				667397D2219E7A2A00A7B124 /* TimecardInfo.swift in Sources */,
+				667398182203D3F400A7B124 /* ListUser.swift in Sources */,
+				667398162203D3E000A7B124 /* UsersInfo.swift in Sources */,
+				6673981E2203D45C00A7B124 /* NeedsSignature.swift in Sources */,
 				66739794219E5DE900A7B124 /* AppDelegate.swift in Sources */,
+				667398022203D30900A7B124 /* EnterTruckNumber.swift in Sources */,
+				6673983A2203EC7C00A7B124 /* OnboardingVehicleInfo.swift in Sources */,
+				667397D0219E7A0F00A7B124 /* PunchInOut.swift in Sources */,
+				667397C8219E79B400A7B124 /* ForgotPassword.swift in Sources */,
+				667398222203D4A100A7B124 /* SignatureNotNeeded.swift in Sources */,
+				6673981A2203D40A00A7B124 /* CommercialScan.swift in Sources */,
+				667398402203ECB800A7B124 /* OnboardingTLB.swift in Sources */,
+				6673980C2203D36000A7B124 /* CommercialPageTwo.swift in Sources */,
+				667398082203D33C00A7B124 /* Commercial.swift in Sources */,
+				667398322203D56300A7B124 /* InfoNotice.swift in Sources */,
+				6673982C2203D52300A7B124 /* InputTime.swift in Sources */,
+				6673980A2203D34B00A7B124 /* Residential.swift in Sources */,
+				6673980E2203D37500A7B124 /* MilesEnded.swift in Sources */,
+				6673984622150B9700A7B124 /* CheckInternet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +625,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -421,6 +680,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -430,15 +690,13 @@
 		};
 		667397B9219E5DEB00A7B124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99717D9A4252DD0DDC225179 /* Pods-DIADAssitantiPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4M74DNL5;
 				INFOPLIST_FILE = DIADAssitantiPad/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -448,15 +706,13 @@
 		};
 		667397BA219E5DEB00A7B124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363438B4AF26A63D6F7B69C3 /* Pods-DIADAssitantiPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4M74DNL5;
 				INFOPLIST_FILE = DIADAssitantiPad/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -472,11 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4M74DNL5;
 				INFOPLIST_FILE = DIADAssitantiPadTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -493,11 +745,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4M74DNL5;
 				INFOPLIST_FILE = DIADAssitantiPadTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -513,11 +761,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4M74DNL5;
 				INFOPLIST_FILE = DIADAssitantiPadUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -533,11 +777,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL4M74DNL5;
 				INFOPLIST_FILE = DIADAssitantiPadUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nazarett.DIADAssitantiPadUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
